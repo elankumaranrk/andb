@@ -1,0 +1,10 @@
+
+<div class='loader'>
+  <div class='loading-square'></div>
+  <div class='loading-square'></div>
+  <div class='loading-square'></div>
+  <div class='loading-square'></div>
+</div>
+<counto [step]="30" [countTo]="100" [countFrom]="0" [duration]="3" (countoChange)="intermediate = $event">
+  <h2>{{intermediate | currency:'EUR':true:'1.2-2'}}</h2>
+</counto>

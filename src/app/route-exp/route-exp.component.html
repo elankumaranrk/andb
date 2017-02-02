@@ -1,0 +1,35 @@
+<form class="page-ai">
+  <div id="contain-all">
+    <section class="card-ai">
+      <div class="outer_contain">
+        <div class="contain">
+          <div class="card-ai__hero">
+            <div class="card-ai__hero--video">
+            </div>
+            <div class="card-ai__hero--overlay">
+              <h6 class="overlay--description white">DOL Projects</h6>
+              <ul>
+                <li>
+                  <a class="overlay--title h1--headline bar" routerLink="howto">How To</a>
+                </li>
+                <li>
+                  <a class="overlay--title h1--headline bar" routerLink="examples">Examples</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+          <div class="card-ai__content">
+            <header class="card-ai__content--header">
+              <h3 class="card-ai__content--title">Just Check</h3>
+              <p class="small mb-half">
+                Choose a config to see how the rules are set
+              </p>
+              <router-outlet></router-outlet>
+            </header>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</form>
